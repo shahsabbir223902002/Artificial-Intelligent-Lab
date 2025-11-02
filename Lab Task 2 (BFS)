@@ -1,0 +1,10 @@
+Task 2:
+1. Write a program to perform BFS traversal on a 2D plane by taking the user input of grid size N. After
+that generate N×N matrix and place the obstacles randomly. Now print the matrix and take user input
+of starting and goal state.
+2. Print the required moves throughout the traversal along with the tiles coordinate.
+For example -
+Moving Down -> (2, 3)
+Moving Right -> (2, 4)
+...
+etc.
