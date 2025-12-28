@@ -1,0 +1,32 @@
+Instructions
+You are given a 2D grid representing a maze, where each cell is either an empty space (0) or a wall (1). Your task is to implement a Python program that uses the A* search algorithm to find the shortest path from a given start cell to a specified target cell. You may move up, down, left, or right to adjacent empty cells, but you cannot pass through walls. Each move has a cost of 1, and you should use the Manhattan distance as the heuristic to estimate the cost from any cell to the target.
+
+Your program must read all input from a file named input.txt. The format of input.txt is:
+First line: two integers R C – number of rows and columns.
+Next R lines: the grid, with 0 and 1 separated by spaces.
+Next line: two integers sr sc – start cell coordinates (row, column).
+Last line: two integers tr tc – target cell coordinates (row, column).
+
+Case#1Input:
+4 4
+0 0 0 0
+1 1 0 1
+0 0 0 0
+0 1 1 0
+0 0
+3 3
+
+Case#1Output:
+Path found with cost 6 using A*
+Shortest Path: [(0,0), (0,1), (0,2), (1,2), (2,2), (2,3), (3,3)]
+
+Case#2Input:
+3 3
+0 1 0
+0 1 0
+0 1 0
+0 0
+2 2
+
+Case#2Output:
+Path not found using A*
